@@ -1,5 +1,5 @@
 <?php
-require_once ('app/classes/autoload.php');
+require_once ('Curl.php');
 
 header('Content-Type: application/json; charset=utf8');
 $curl = new Curl('https://pokeapi.co/api/v2/');
